@@ -1,6 +1,5 @@
 from django.apps import AppConfig
 
-
 class PrdsConfig(AppConfig):
-    default_auto_field = "django.db.models.BigAutoField"
-    name = "prds"
+    default_auto_field = 'django.db.models.BigAutoField'
+    name = 'apps.prds'
