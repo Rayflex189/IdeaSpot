@@ -36,7 +36,7 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
 
-ROOT_URLCONF = 'IdeaSpot.urls'
+ROOT_URLCONF = 'IdeaSpotConfig.urls'
 
 TEMPLATES = [
     {
@@ -54,8 +54,8 @@ TEMPLATES = [
     },
 ]
 
-WSGI_APPLICATION = 'IdeaSpot.wsgi.application'
-ASGI_APPLICATION = 'IdeaSpot.asgi.application'
+WSGI_APPLICATION = 'IdeaSpotConfig.wsgi.application'
+ASGI_APPLICATION = 'IdeaSpotConfig.asgi.application'
 
 DATABASES = {
     'default': {
